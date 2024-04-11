@@ -5,21 +5,24 @@ body {
     background-color: black;
 }
 
+.header {
+    border-bottom: 3px solid #32b9cd;
+}
+
 .container {
     display: flex;
     width: 80%;
     margin: auto;
 }
 
-.titulo {
-    color: #32b9cd;
-}
 .header .container {
     justify-content: space-between;
 }
-.header {
-    border-bottom: 3px solid #32b9cd;
+
+.titulo {
+    color: #32b9cd;
 }
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -29,3 +32,132 @@ body {
     color: #e3b062;
     align-items: center;
 }
+
+/* banner */
+
+.banner {
+    padding: 40px 20px 30px 10px;
+    color: #fff;
+    height: 400px;
+    background-image: url("imagens/bg-jelly-fish-para_outras_pags.png");
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.banner .container p {
+    font-size: 36px;
+    width: 25%;
+}
+
+.banner .container p span {
+    font-weight: bold;
+}
+
+.social {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.social .container {
+    justify-content: space-between;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card h4 {
+    font-size: 24px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #32b9cd;
+}
+
+.logo {
+    width: 50px;
+}
+
+.footer .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer .container p {
+    font-weight: bold;
+}
+
+/* adicionado */
+.agora {
+    font-weight: 800
+}
+
+.login {
+    height: 78vh;
+    
+}
+
+.login .container {
+    justify-content: center;
+    align-items: center;
+    background-image: url('./imagens/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    height: 75vh;
+}
+
+.card { 
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border: 3px solid #32b9cd;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: palevioletred
+}   
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo input {
+    width: 200px;
+    padding: 7px 15px;  
+    border: 2px solid #32b9cd;
+}
+
+.formulario button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color:#fff;
+    border: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e3b062;
+}
+
+.agora {
+    font-weight: 800;
+}
+
+
